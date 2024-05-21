@@ -15,6 +15,7 @@
                 <div class="foot">
                     <h3>Total</h3>
                     <h2 id="total">$ 0.00</h2>
+                    <button type="submit" class="btn btn-primary">CHECKOUT</button>
                 </div>
             </div>
         </div>
