@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'poppins';
     font-size: 18px;
+    color: #eee;
   }
   
   body {
@@ -17,7 +18,7 @@
   .header {
     height: 80px;
     width: 70%;
-    background-color: #1A2634;
+    background-color: #1D1d;
     border-radius: 3px;
     margin: 30px 0px;
     display: flex;
@@ -36,6 +37,7 @@
   .header ul {
     display: flex;
     list-style: none;
+    
   }
   
   .header ul li a {
@@ -86,8 +88,9 @@
   
   .sidebar {
     width: 40%;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #eee;
+    border: 5px solid rgb(32, 218, 141);
     margin-left: 20px;
     padding: 15px;
     text-align: center;
@@ -95,13 +98,14 @@
   
   .head {
     background-color: goldenrod;
-    border-radius: 3px;
+    border-radius: 10px;
     height: 40px;
     padding: 10px;
     margin-bottom: 20px;
-    color: black;
-    display: flex;
+    color: rgb(0, 0, 0);
+    display: CENTER;
     align-items: center;
+    
   }
   
   .foot {
@@ -110,6 +114,7 @@
     margin: 20px 0px;
     padding: 10px 0px;
     border-top: 1px solid #333;
+    
   }
   
   .box {
@@ -117,7 +122,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid goldenrod;
+    border: 5px solid rgb(32, 218, 141);
     border-radius: 5px;
     padding: 15px;
   }
@@ -154,18 +159,18 @@
   }
   
   button {
-    width: 100%;
+    width: 80%;
     position: relative;
     border: none;
-    border-radius: 5px;
-    background-color: goldenrod;
-    padding: 7px 25px;
+    border-radius: 10px;
+    background-color: rgb(224, 165, 14);
+    padding: 5px 20px;
     cursor: pointer;
-    color: black;
+    color: rgb(0, 0, 0);
   }
   
   button:hover {
-    background-color: #333;
+    background-color: #f7e600;
   }
   
   .cart-item {
@@ -173,9 +178,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: white;
-    border-bottom: 1px solid #aaa;
-    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #ffffff;
+    border-radius: 10px;
     margin: 10px 10px;
   }
   
