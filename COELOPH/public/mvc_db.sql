@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 10, 2024 at 10:48 AM
--- Server version: 10.4.28-MariaDB
--- PHP Version: 8.2.4
+-- Generation Time: May 21, 2024 at 07:46 AM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -43,9 +43,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `image`, `role`, `token`) VALUES
-(51, 'Abel', 'Palero', 'abel.palero@gmail.com', '$2y$10$5f3fuqTbJQjaozTV.wgaVewj9zVgl8CbiyKAdlJXPQfSx.RdtgPi.', NULL, 'Admin', NULL),
-(88, 'John', 'Doe', 'jd@gmail.com', '$2y$10$iTzWmG9nPERpfJqI./NhQeKubqxB5spSMPWjNGlYGic4y/vTH9dre', 'assets/images/2.png', 'Staff', 'rk8JNrv0zoLb3nV6j06sx7lbkqAXBABYYwPYpvGiUIdnzFWVXPvjMR3XnzJ5'),
-(89, 'Allen', 'Cruz', 'allen@gmail.com', '$2y$10$pNxSBzA33CRcv2.LSzqzWuJWon890M8tkJ9hSs8ESs2AFyNFjLOEO', 'assets/images/Damayang Filipino Movement Inc.png', 'Staff', 'Yqzl3qeQZtcJlSwQ4ASlFFzViMhInMk9sKwnpt2aiOekRR9VAWjoDDhqvF2b');
+(90, 'John', 'Luna', 'Johnpeterluna@gmail.com', '$2y$10$1R55T4kX0SOJxI3tyrhfK.mL90n.IcO/cxCUKk9.jIXYL0PcqpTEC', 'assets/images/A3 DTF (9).png', 'Admin', 'VwIUtdAf9057nl1XLcn2h0n5tHcEXLj0wc8OAoB08UezdbX6sXUE7csc7OW5'),
+(91, 'lucky', 'cruz', 'luckycruz@gmail.com', '$2y$10$h.2KX5Titu7ehWH4UCxUoOvYJXVwPyqSm0LjlLK70tIKmNXlUs4Ku', 'assets/images/download.jpg', 'Admin', 'jTnvfycU2oVQ09BE2bbvcqS5H5wr7VmpiDkomIfun2oRAo2lhsjSTmLXFpxs'),
+(92, 'Robbie', 'Clerigo', 'Robbieclerigo@gmail.com', '$2y$10$Eaf6O2.Zt01vDwPTcKDR8e2oMUI5D6ypSYvfMibBIr1m/I5iteaSu', 'assets/images/A3 DTF (9).png', 'Staff', '0P8GKrmbrsq3HWt36j14jygDkv8dSBf3tbaEHyG5xVJdvf1KtysicFfz943f'),
+(93, 'Aki', 'bacolod', 'akibacolod@gmail.com', '$2y$10$inKS0GRHNJB7C3OucrLMzuZ16nYs/5HcxJqmeyF6mfR4iKiDYamti', 'assets/images/442461173_471709135385835_1855407096893457404_', 'Admin', 'zaxVuoI5e53fA3fZ1NkPR4GXdgx7rmr8cebcTT8Ta9aFxpYWFVaTPt0r73t1');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +66,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=90;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=94;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

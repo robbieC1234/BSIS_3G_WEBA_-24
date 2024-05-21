@@ -1,12 +1,11 @@
 <?php include PATH . "partials/header.php" ?>
 
+<head>
+
+</head>
 <div class="container">
 
-  <div class="mt-5 d-flex justify-content-between align-items-center">
-    <h2>List of Users</h2>
 
-    <a href="<?= ROOT ?>/users/create" class="btn btn-primary">Add New</a>
-  </div>
 
   <table class="table table-striped mt-3">
     <tr>
@@ -39,6 +38,14 @@
       </tr>
     <?php } ?>
   </table>
+    </div>
+
+<div class="container mt-5">
+  <div class="d-flex justify-content-between align-items-center">
+    <a href="<?= ROOT ?>/users/create" class="btn btn-primary">Add New</a>
+  </div>
+</div>
+
 
 </div>
 
