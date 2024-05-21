@@ -10,7 +10,7 @@
             <select name="role" class="form-control">
                 <option value="">Select a Role</option>
                 <option <?= $user->role == 'Admin' ? 'selected' : '' ?> value="Admin">Admin</option>
-                <option <?= $user->role == 'Staff' ? 'selected' : '' ?> value="Staff">Staff</option>
+                <option <?= $user->role == 'User' ? 'selected' : '' ?> value="User">User</option>
             </select>
         </div>
 

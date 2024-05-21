@@ -31,7 +31,7 @@
             <select name="role" class="form-control">
                 <option value="">Select a Role</option>
                 <option <?= get_select('role', 'Admin') ?> value="Admin">Admin</option>
-                <option <?= get_select('role', 'Staff') ?> value="Staff">Staff</option>
+                <option <?= get_select('role', 'User') ?> value="User">User</option>
             </select>
         </div>
 
