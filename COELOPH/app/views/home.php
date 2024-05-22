@@ -1,7 +1,7 @@
 <?php include "partials/header.php" ?>
 
 <head>
-        <link rel="stylesheet" href="addtocart.css">
+        <link rel="stylesheet" href="../../public/assets/css/addtocart.css">
         <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -15,7 +15,8 @@
                 <div class="foot">
                     <h3>Total</h3>
                     <h2 id="total">$ 0.00</h2>
-                    <button type="submit" class="btn btn-primary">CHECKOUT</button>
+                    <button class="btn btn-primary" onclick="location.href='<?=ROOT?>/contact'">CHECKOUT</button>
+                
                 </div>
             </div>
         </div>
